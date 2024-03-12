@@ -1,13 +1,12 @@
 package com.example.SpringMVC;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringMvcApplication {
+public class SpringApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringMvcApplication.class, args);
+		org.springframework.boot.SpringApplication.run(SpringApplication.class, args);
 	}
 
 }
